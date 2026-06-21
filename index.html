@@ -1,136 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reshmi M | Portfolio</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #fefefe;
-      color: #222;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reshmi M | Portfolio</title>
 
-    header {
-      background: #6c63ff;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    header h1 {
-      margin: 0;
-    }
+<link rel="stylesheet" href="style.css">
 
-    .social-links a {
-      color: #fff;
-      margin: 0 5px;
-      text-decoration: underline;
-    }
-
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    section h2 {
-      border-bottom: 2px solid #6c63ff;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    ul {
-      list-style: square;
-      padding-left: 1.5rem;
-    }
-
-    a {
-      color: #6c63ff;
-      text-decoration: none;
-    }
-
-    .project {
-      margin-bottom: 1.5rem;
-    }
-
-    footer {
-      text-align: center;
-      background: #eee;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-      section {
-        padding: 1rem;
-      }
-    }
-  </style>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
-  <header>
-    <h1>Reshmi M</h1>
-    <p>Data Analyst</p>
-    <div class="social-links">
-      <a href="https://github.com/" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/reshmi-m-595a73268" target="_blank">LinkedIn</a>
-    </div>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m an AI & Data Science student passionate about data analytics and problem-solving. I’m a fast learner eager to explore new tools and technologies.</p>
-  </section>
+<!-- NAVBAR -->
 
-  <section id="skills">
-    <h2>Technical Skills & Interests</h2>
-    <ul>
-      <li><strong>Languages:</strong> Python, C, Java, JavaScript, HTML, CSS</li>
-      <li><strong>Libraries:</strong> Python ML Libraries, Computer Vision, ReactJS</li>
-      <li><strong>Tools:</strong> VS Code, Git, GitHub, Google Colab, Microsoft Tools</li>
-      <li><strong>Cloud/Databases:</strong> MySQL, MongoDB</li>
-      <li><strong>Coursework:</strong> DSA, OOP, DBMS, OS, Software Engineering, Machine Learning, Computer Vision</li>
-      <li><strong>Interests:</strong> Data Analysis, Data Engineering, Web Designing</li>
-      <li><strong>Soft Skills:</strong> Critical Thinking, Presentation, Teamwork, Time Management, Flexibility</li>
-    </ul>
-  </section>
+<nav class="navbar">
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>MMA Movement Prediction</h3>
-      <p>Developed an object detection system using Deep Learning (CNN) and Computer Vision. Achieved 90%+ accuracy on real-time movement detection and labeling across 100+ training labels.</p>
-    </div>
-    <div class="project">
-      <h3>AI-Enhanced Newborn Screening</h3>
-      <p>Created a web app for early disease prediction in newborns using ML. Backend via VS Code, frontend designed in Figma. Helpful for medical diagnostics and genetic analysis.</p>
-    </div>
-    <div class="project">
-      <h3>TVS Motor Company Pvt. Ltd. | Project Trainee</h3>
-      <p>Worked on Warehouse Management System (June 3–26, 2024). Assisted in data-driven automation for inventory tracking and improving operational efficiency.</p>
-    </div>
-      <div class="project">
-      <h3> Titan Company Limited.| Project Trainee</h3>
-      <p>Created a web app for gold rate calculations in jewelleries using web development.Backend via vs code,frontend designed in javascript, html & css.Efficiency in calculations.</p>
-      </div>
-  </section>
+<div class="logo">
+<h2>RM</h2>
+</div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:reshmimoha09@gmail.com">reshmimoha09@gmail.com</a></p>
-    <p>Phone: 9003294483</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/reshmi-m-595a73268" target="_blank">linkedin.com/in/reshmi</a></p>
-  </section>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 
-  <footer>
-    <p>© 2025 Reshmi M</p>
-  </footer>
+<a href="D:\Reshmi_Mresume.pdf" class="resume-btn" download>
+    Download Resume
+</a>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<p class="intro">HELLO, I'M</p>
+
+<h1>Reshmi M</h1>
+
+<h3>AI & Data Science Student</h3>
+
+<p class="hero-text">
+
+Final-year B.Tech student in Artificial Intelligence and Data Science with expertise in Machine Learning, Deep Learning, Data Analytics and Web Technologies.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="primary-btn">
+View Projects
+</a>
+
+<a href="#contact" class="secondary-btn">
+Contact Me
+</a>
+
+</div>
+
+<div class="social-links">
+
+<a href="https://github.com/RES0912">
+<i class="fab fa-github"></i>
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/reshmi-m-595a73268">
+<i class="fab fa-linkedin"></i>
+LinkedIn
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="C:\Users\Harsha\Downloads\ChatGPT Image Jun 21, 2026, 01_01_35 PM.png"
+alt="Reshmi M">
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<div class="about-left">
+
+<h5>ABOUT ME</h5>
+
+<h2>
+Artificial Intelligence &
+Data Science Engineer
+</h2>
+
+<p>
+
+Final-year B.Tech student specializing in Artificial Intelligence and Data Science with strong expertise in Python, Machine Learning, TensorFlow, CatBoost, Data Analytics and Full Stack Web Development.
+
+</p>
+
+</div>
+
+<div class="about-right">
+
+<div class="achievement">
+<h3>8.12</h3>
+<p>CGPA</p>
+</div>
+
+<div class="achievement">
+<h3>10+</h3>
+<p>Certifications</p>
+</div>
+
+<div class="achievement">
+<h3>1</h3>
+<p>Patent</p>
+</div>
+
+<div class="achievement">
+<h3>3</h3>
+<p>Internships</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="skills">
+
+<h5>TECHNICAL SKILLS</h5>
+
+<h2>Skills & Technologies</h2>
+
+<div class="skills-grid">
+
+<div class="skill-box">Python</div>
+<div class="skill-box">C</div>
+<div class="skill-box">HTML5</div>
+<div class="skill-box">CSS3</div>
+<div class="skill-box">JavaScript</div>
+<div class="skill-box">TensorFlow</div>
+<div class="skill-box">Scikit-Learn</div>
+<div class="skill-box">CatBoost</div>
+<div class="skill-box">MySQL</div>
+<div class="skill-box">MongoDB</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="projects">
+
+<h5>PROJECTS</h5>
+
+<h2>Featured Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<img src="C:\Users\Harsha\Downloads\ChatGPT Image Jun 21, 2026, 01_18_26 PM.png">
+
+<h3>MMA Movement Prediction System</h3>
+
+<p>
+CNN based movement prediction model.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="C:\Users\Harsha\Downloads\ChatGPT Image Jun 21, 2026, 01_20_24 PM.png">
+
+<h3>Thyroid Disorder Prediction System</h3>
+
+<p>
+CatBoost based diagnostic prediction system.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="C:\Users\Harsha\Downloads\ChatGPT Image Jun 21, 2026, 01_22_44 PM.png">
+
+<h3>Gold Rate Calculator</h3>
+
+<p>
+Real-time API integrated web application.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+
+<section id="experience" class="experience">
+
+<h5>INTERNSHIPS</h5>
+
+<h2>Experience</h2>
+
+<div class="timeline">
+
+<div class="job">
+
+<img src="C:\Users\Harsha\Downloads\titan.webp">
+
+<h3>Titan Company Limited</h3>
+
+<p>Project Trainee</p>
+<p>Developed and deployed a Gold Rate Calculator web application with real-time API and
+database integration.Improved transaction efficiency by 25% and reduced manual calculation errors by 40%.</p>
+
+</div>
+
+<div class="job">
+
+<img src="C:\Users\Harsha\Downloads\tvs-motors-hosur.webp">
+
+<h3>TVS Motor Company</h3>
+
+<p>Project Trainee</p>
+<p>Applied data analytics to warehouse management, identifying bottlenecks in stock retrieval.Reduced retrieval time by 18% through targeted process automation.</p>
+
+</div>
+
+<div class="job">
+
+<img src="C:\Users\Harsha\Downloads\edunet.jpg">
+
+<h3>Edunet Foundation</h3>
+
+<p>Project Trainee</p>
+<p>Architected a responsive Recipe Finder application using modern web technologies and API integration.Enhanced application usability and efficiency through optimized front-end workflows.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+
+<section class="skills">
+
+<h5>RESEARCH & ACHIEVEMENTS</h5>
+
+<h2>Highlights</h2>
+
+<div class="skills-grid">
+
+<div class="skill-box">
+Patent Published
+</div>
+
+<div class="skill-box">
+Research Paper Published
+</div>
+
+<div class="skill-box">
+Cisco Certifications
+</div>
+
+<div class="skill-box">
+IBM SkillBuild
+</div>
+
+<div class="skill-box">
+Oracle Certifications
+</div>
+
+<div class="skill-box">
+IEEE Member
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h5>LET'S CONNECT</h5>
+
+<h2>Get In Touch</h2>
+
+<p>Email: reshmimoha09@gmail.com</p>
+
+<p>GitHub: RES0912</p>
+
+<p>LinkedIn: reshmi-m-595a73268</p>
+
+</section>
+
 </body>
 </html>
